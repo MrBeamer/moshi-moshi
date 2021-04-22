@@ -20,7 +20,7 @@ export default function Products() {
     <div className="products-layout">
       <div>
         <h1>Products</h1>
-        <p>Take a look at our products</p>
+        <p>Take a look at our fruits</p>
       </div>
       <div className="products-grid">
         {products.map((product) => (
