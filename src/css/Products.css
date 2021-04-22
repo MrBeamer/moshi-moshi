@@ -1,6 +1,11 @@
 .products-layout {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr;
   padding: 45px 0;
   grid-gap: 34px;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
 }

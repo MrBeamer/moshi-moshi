@@ -1,0 +1,26 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr;
+  background-color: var(--neutral-6);
+  box-shadow: 0 3px 7px 1px rgb(0 0 0 / 6%), 0 -3px 7px 1px rgb(0 0 0 / 7%);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.product-grid img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-grid .fa-times {
+  font-size: 18px;
+  color: black;
+}
+
+.product-checkout {
+  display: grid;
+
+  justify-items: flex-end;
+}
