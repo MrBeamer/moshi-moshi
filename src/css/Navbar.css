@@ -1,0 +1,29 @@
+.navbar {
+  height: 11vh;
+  background-color: var(--neutral-6);
+  box-shadow: 0 3px 7px 1px rgb(0 0 0 / 6%), 0 -3px 7px 1px rgb(0 0 0 / 7%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  padding: 13px 20px;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--primary-1);
+  padding: 13px 20px;
+  text-align: center;
+  transition: all 0.7s;
+}
+
+.nav-item .active {
+  font-weight: bold;
+}

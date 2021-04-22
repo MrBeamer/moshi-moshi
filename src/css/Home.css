@@ -1,0 +1,16 @@
+.home-layout {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  /* padding-top: 45px; */
+  padding: 45px 0;
+  grid-gap: 34px;
+}
+
+.home-layout img {
+  height: 600px;
+}
+
+.home-layout p {
+  letter-spacing: 0.8px;
+  line-height: 22px;
+}

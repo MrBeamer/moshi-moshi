@@ -1,0 +1,6 @@
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 45px 0;
+  grid-gap: 34px;
+}
