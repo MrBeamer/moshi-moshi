@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../css/ProductDetails.css";
 import { seed } from "./seed.js";
 import {
-  Link,
   useParams,
   Switch,
   Route,

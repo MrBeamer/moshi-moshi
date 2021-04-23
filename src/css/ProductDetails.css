@@ -3,11 +3,13 @@
   grid-template-columns: auto 1fr;
   padding: 45px 0;
   grid-gap: 34px;
+  letter-spacing: 0.8px;
 }
 
 .details-layout img {
   width: 125px;
   height: 125px;
+  border-radius: 3px;
 }
 
 .tabs {

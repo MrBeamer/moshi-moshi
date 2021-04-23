@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Navbar.css";
 import { NavLink } from "react-router-dom";
+import Button from "./Button";
 
 export default function Navbar() {
   return (
@@ -28,7 +29,7 @@ export default function Navbar() {
         </li>
         <li className="nav-item">
           <NavLink exact activeClassName="active" to="/cart">
-            Cart
+            <Button className="cta"> Cart</Button>
           </NavLink>
         </li>
       </ul>

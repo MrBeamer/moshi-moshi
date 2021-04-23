@@ -42,3 +42,13 @@
   padding: 8px 25px;
   border-radius: 3px;
 }
+
+.cta {
+  /* background-color: #f0b17c; */
+  background-color: #cb626e;
+}
+
+.cta:hover {
+  /* background-color: #f5ccaa; */
+  background-color: #bc3e4d;
+}
