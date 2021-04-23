@@ -1,0 +1,36 @@
+.details-layout {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 45px 0;
+  grid-gap: 34px;
+}
+
+.details-layout img {
+  width: 125px;
+  height: 125px;
+}
+
+.tabs {
+  /* border-bottom: 1px solid var(--neutral-4); */
+}
+
+.tabs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tabs li {
+  display: inline-block;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 400;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.active-tab {
+  border-bottom: 2px solid var(--primary-1);
+}

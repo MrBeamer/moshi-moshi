@@ -4,3 +4,13 @@
   padding: 45px 0;
   grid-gap: 34px;
 }
+
+.about-layout img {
+  height: 600px;
+  border-radius: 3px;
+}
+
+.about-layout p {
+  letter-spacing: 0.8px;
+  line-height: 22px;
+}

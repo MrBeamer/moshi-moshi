@@ -4,7 +4,6 @@ import "../css/Button.css";
 
 export default function Button(props) {
   const { children, outline, className, ...rest } = props;
-  console.log(rest);
   const classNames = clsx(
     {
       btn: true,

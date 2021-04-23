@@ -1,12 +1,11 @@
 import "./css/App.css";
-import Button from "./components/Button";
-import Input from "./components/Input.js";
 import Home from "./components/Home.js";
 import About from "./components/About.js";
 import Products from "./components/Products.js";
 import Navbar from "./components/Navbar.js";
 import NotFound from "./components/NotFound.js";
 import Cart from "./components/Cart.js";
+import ProductDetails from "./components/ProductDetails.js";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 export default function App() {
@@ -24,6 +23,9 @@ export default function App() {
             </Route>
             <Route exact path="/products">
               <Products />
+            </Route>
+            <Route path="/products/:id">
+              <ProductDetails />
             </Route>
             <Route exact path="/cart">
               <Cart />

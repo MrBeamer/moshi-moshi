@@ -7,11 +7,14 @@ export default function About() {
       <div>
         <h1>About Us</h1>
         <p>
-          TWe started operations in 2020. We guarantee fresh produce. Save time
-          by shopping on our app and we'll deliver the products right to your
-          home. We use Stripe to process your payment.
+          Order your fruits from <em>Fruit Panda</em> with our easy to use app,
+          and get your fresh fruits delivered straight to your doorstep.
         </p>
       </div>
+      <img
+        src="https://images.unsplash.com/photo-1582979512210-99b6a53386f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2734&q=80"
+        alt="woman with oranges"
+      />
     </div>
   );
 }
