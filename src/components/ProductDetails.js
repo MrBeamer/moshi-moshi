@@ -62,7 +62,10 @@ export default function ProductDetails(props) {
 
           <Switch>
             <Route exact path={match.path}>
-              <ProductDetailInfo productDetails={productDetails} />
+              <ProductDetailInfo
+                productDetails={productDetails}
+                onProductAdd={props.onProductAdd}
+              />
             </Route>
             <Route exact path={`${match.path}/nutrition`}>
               <ProductDetailNutrition productDetails={productDetails} />

@@ -3,7 +3,7 @@ import "../css/Products.css";
 import { seed } from "./seed.js";
 import Product from "../components/Product";
 
-export default function Products() {
+export default function Products(props) {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -19,7 +19,13 @@ export default function Products() {
         </div>
         <div className="products-grid">
           {products.map((product) => (
-            <Product key={product.id} details={product}></Product>
+            <Product
+              key={product.id}
+              details={product}
+              onProductAdd={props.onProductAdd}
+              onProductDelete={props.onProductDelete}
+              cart={props.cart}
+            ></Product>
           ))}
         </div>
       </div>

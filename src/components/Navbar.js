@@ -3,7 +3,12 @@ import "../css/Navbar.css";
 import { NavLink } from "react-router-dom";
 import Button from "./Button";
 
-export default function Navbar() {
+export default function Navbar(props) {
+  const quantity = props.cart
+    .map((product) => product.quantity)
+    .reduce((acc, cur) => acc + cur, 0);
+  console.log(quantity);
+
   return (
     <nav className="navbar">
       <img
@@ -29,7 +34,7 @@ export default function Navbar() {
         </li>
         <li className="nav-item">
           <NavLink exact activeClassName="active" to="/cart">
-            <Button className="cta"> Cart</Button>
+            <Button className="cta">{`Cart (${quantity})`}</Button>
           </NavLink>
         </li>
       </ul>
