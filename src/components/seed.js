@@ -6,7 +6,7 @@ export const seed = [
     image:
       "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1618&q=80",
     price: 0.45,
-    price_id: "price_1Ij7uqGQ9nm0CiBq8NQ9AKyi",
+    price_id: "price_1Ij8DuGQ9nm0CiBqDNLTbsht",
     nutrition: {
       carbs: 27,
       fat: 0.4,

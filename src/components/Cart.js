@@ -4,16 +4,36 @@ import Input from "./Input";
 import Button from "./Button";
 import { loadStripe } from "@stripe/stripe-js";
 
+const stripeLoadedPromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
+
 export default function Cart(props) {
-  const api = {
-    key: process.env.REACT_APP_STRIPE_KEY,
-  };
   const [email, setEmail] = useState("");
   console.log(email);
 
   const totalPrice = props.cart
     .reduce((total, product) => total + product.quantity * product.price, 0)
     .toFixed(2);
+
+  const lineItems = props.cart.map((product) => {
+    return { price: product.price_id, quantity: product.quantity };
+  });
+
+  async function handleFormSubmit(event) {
+    event.preventDefault();
+    const stripe = await stripeLoadedPromise;
+    try {
+      const result = await stripe.redirectToCheckout({
+        lineItems: lineItems,
+        mode: "payment",
+        successUrl: "https://react-tutorial.app/app.html",
+        cancelUrl: "https://react-tutorial.app/app.html",
+        customerEmail: email,
+      });
+      console.log(result.error);
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
   return (
     <div className="cart-layout">
@@ -63,13 +83,13 @@ export default function Cart(props) {
             </tfoot>
           </table>
           <div className="cart-checkout"></div>
-          <form className="payForm">
+          <form className="payForm" onSubmit={handleFormSubmit}>
             <p>
               Enter your email and then click on pay and your products will be
               delivered to you in 2 days.
             </p>
             <Input
-              autocomplete="email"
+              autoComplete="email"
               placeholder="Email"
               type="email"
               required
