@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/Cart.css";
 import Input from "./Input";
 import Button from "./Button";
+import { loadStripe } from "@stripe/stripe-js";
 
 export default function Cart(props) {
-  console.log(props.cart);
+  const [email, setEmail] = useState("");
+  console.log(email);
 
   const totalPrice = props.cart
     .reduce((total, product) => total + product.quantity * product.price, 0)
@@ -58,12 +60,21 @@ export default function Cart(props) {
             </tfoot>
           </table>
           <div className="cart-checkout"></div>
-          <p>
-            Enter your email and then click on pay and your products will be
-            delivered to you in 2 days.
-          </p>
-          <Input placeholder="Email" type="email" required></Input>
-          <Button>Pay</Button>
+          <form className="payForm">
+            <p>
+              Enter your email and then click on pay and your products will be
+              delivered to you in 2 days.
+            </p>
+            <Input
+              autocomplete="email"
+              placeholder="Email"
+              type="email"
+              required
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+            ></Input>
+            <Button type="submit">Pay</Button>
+          </form>
         </>
       )}
     </div>
