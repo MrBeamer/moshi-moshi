@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+.cart-table tbody tr:nth-child(even) {
+  background-color: var(--neutral-6);
+}
+
 .cart-table img {
   margin-right: 10px;
   border-radius: 3px;
@@ -21,12 +25,15 @@
   padding: 10px;
 }
 
-.table tbody tr:nth-child(even) {
-  background-color: var(--neutral-6);
+.cart-highlight {
+  background-color: #cb626e;
+  color: var(--white);
+  padding: 10px;
 }
 
-.cart-table td {
-  padding: 10px;
+.cart-img {
+  display: flex;
+  align-items: center;
 }
 
 .cart-table td:nth-child(2),

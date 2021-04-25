@@ -42,6 +42,10 @@
   padding: 8px 25px;
   border-radius: 3px;
 }
+.btn-default,
+.btn-outline:focus {
+  outline: none;
+}
 
 .cta {
   /* background-color: #f0b17c; */
