@@ -5,6 +5,9 @@ import Button from "./Button";
 import { loadStripe } from "@stripe/stripe-js";
 
 export default function Cart(props) {
+  const api = {
+    key: process.env.REACT_APP_STRIPE_KEY,
+  };
   const [email, setEmail] = useState("");
   console.log(email);
 
