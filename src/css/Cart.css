@@ -17,6 +17,7 @@
 
 .cart-table thead th {
   background-color: #cb626e;
+  color: var(--white);
   padding: 10px;
 }
 
