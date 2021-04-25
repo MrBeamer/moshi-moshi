@@ -1,0 +1,35 @@
+.cart-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 45px 0;
+  grid-gap: 34px;
+  letter-spacing: 0.8px;
+}
+
+.cart-table {
+  width: 100%;
+}
+
+.cart-table img {
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.cart-table thead th {
+  background-color: #cb626e;
+  padding: 10px;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: var(--neutral-6);
+}
+
+.cart-table td {
+  padding: 10px;
+}
+
+.cart-table td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4) {
+  text-align: center;
+}

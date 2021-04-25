@@ -7,15 +7,16 @@ export default function Navbar(props) {
   const quantity = props.cart
     .map((product) => product.quantity)
     .reduce((acc, cur) => acc + cur, 0);
-  console.log(quantity);
 
   return (
     <nav className="navbar">
-      <img
-        className="nav-logo"
-        src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1619104895/fruit%20panda/bwj0jjolii6eisciw9m9.svg"
-        alt="logo"
-      ></img>
+      <NavLink to="/">
+        <img
+          className="nav-logo"
+          src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1619104895/fruit%20panda/bwj0jjolii6eisciw9m9.svg"
+          alt="logo"
+        ></img>
+      </NavLink>
       <ul>
         <li className="nav-item">
           <NavLink exact activeClassName="active" to="/">

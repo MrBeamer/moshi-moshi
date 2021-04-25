@@ -7,7 +7,6 @@ export default function Input(props) {
 
   const classNames = clsx({ input: true }, className);
   console.log(props);
-  console.log(placeholder, type);
   return (
     <label className="label">
       {placeholder}

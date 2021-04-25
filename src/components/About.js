@@ -7,8 +7,29 @@ export default function About() {
       <div>
         <h1>About Us</h1>
         <p>
-          Order your fruits from <em>Fruit Panda</em> with our easy to use app,
-          and get your fresh fruits delivered straight to your doorstep.
+          Fruit Panda is the leading online fruit delivery marketplace.
+          Headquartered in Berlin, Germany. It operates in more than 20
+          countries across 5 continents.
+        </p>
+        <p>
+          Fruit Panda allows users to conveniently discover fair trade fruits
+          and directly order their fruits online or via mobile.
+        </p>
+        <p>
+          In Berlin, Fruit Panda was launched in March 2021 and has since grown
+          to over 100 partner fruit suppliers nationwide.
+        </p>
+        <p>
+          We are a small team of problem solvers, designers, thinkers and
+          tinkers, working around the clock to make Fruit Panda the most
+          powerful online tool for fruit delivery. We believe that ordering
+          fruit should be easy, fast and definitely fun!
+        </p>
+        <p>
+          Tired of the same fruits? Too lazy to go out and buy them in a store?
+          Simply download the Fruit Panda app or go to www.fruitpanda.de, and
+          enter your location to see which fruit suppliers deliver to you. Fruit
+          delivery has never been easier!
         </p>
       </div>
       <img

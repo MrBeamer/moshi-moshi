@@ -6,11 +6,20 @@ export default function Home() {
   return (
     <div className="home-layout">
       <div>
-        <h1>Fruits delivered in 15 minutes</h1>
+        <h1>Fresh Fruits delivered in 2 days</h1>
         <p>
           Order your fruits from <em>Fruit Panda</em> with our easy to use app,
           and get your fresh fruits delivered straight to your doorstep.
         </p>
+
+        <p>
+          Living well begins with eating well. That's why we ban hydrogenated
+          fats, high-fructose corn syrup, artificial sweeteners and more than
+          100 flavours, colours and preservatives commonly found in food. If you
+          want to know what goes into the products you buy, our standards make
+          it easy, because if it doesn't meet the standards, we won't sell it.
+        </p>
+
         <Link to="/products" className="btn btn-default">
           Start shopping
         </Link>
