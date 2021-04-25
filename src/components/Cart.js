@@ -25,8 +25,8 @@ export default function Cart(props) {
       const result = await stripe.redirectToCheckout({
         lineItems: lineItems,
         mode: "payment",
-        successUrl: "https://react-tutorial.app/app.html",
-        cancelUrl: "https://react-tutorial.app/app.html",
+        successUrl: "https://fruitpanda.netlify.app",
+        cancelUrl: "https://fruitpanda.netlify.app/products",
         customerEmail: email,
       });
       console.log(result.error);
@@ -57,14 +57,14 @@ export default function Cart(props) {
               {props.cart.map((product) => {
                 return (
                   <tr key={product.id}>
-                    <td>
+                    <td className="cart-img">
                       <img
                         src={product.image}
                         width="30"
                         height="30"
                         alt={product.name}
                       />
-                      {product.name}
+                      <p>{product.name}</p>
                     </td>
                     <td> {product.price}€</td>
                     <td> {product.quantity}</td>
@@ -77,8 +77,8 @@ export default function Cart(props) {
               <tr>
                 <td></td>
                 <td></td>
-                <td>Total</td>
-                <td>{totalPrice}€</td>
+                <td className="cart-highlight">Total</td>
+                <td className="cart-highlight">{totalPrice}€</td>
               </tr>
             </tfoot>
           </table>
