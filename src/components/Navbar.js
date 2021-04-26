@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/Navbar.css";
+import "../css/mediaQueries.css";
+
 import { NavLink } from "react-router-dom";
 import Button from "./Button";
 
@@ -10,6 +12,11 @@ export default function Navbar(props) {
 
   return (
     <nav className="navbar">
+      <img
+        className="nav-logo-mobile"
+        src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1619453939/fruit%20panda/jyyblsei3mrfnf39i5ms.png"
+        alt="logo"
+      ></img>
       <NavLink to="/">
         <img
           className="nav-logo"

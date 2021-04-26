@@ -16,9 +16,15 @@
     grid-template-columns: 1fr;
   }
 
-  .home-layout {
+  .home-layout,
+  .container .about-layout {
     grid-template-columns: 1fr;
     padding: 30px 0;
+  }
+
+  .home-layout img,
+  .about-layout img {
+    grid-row: 1;
   }
 
   .footer p {
@@ -35,6 +41,32 @@
   }
 
   .container {
-    padding: 0px 40px;
+    padding: 0px 25px;
+    height: unset;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-logo-mobile {
+    display: inline-block !important;
+    width: 20%;
+  }
+
+  .nav-item a {
+    padding: 13px 9px !important;
+  }
+
+  .cta {
+    width: 70px !important;
+  }
+
+  .navbar ul .nav-item:first-child {
+    display: none !important;
+  }
+
+  .btn {
+    padding: 8px 2px !important;
   }
 }

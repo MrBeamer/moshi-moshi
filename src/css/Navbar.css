@@ -11,6 +11,10 @@
   padding: 13px 20px;
 }
 
+.nav-logo-mobile {
+  display: none;
+}
+
 .nav-item {
   display: inline-block;
 }

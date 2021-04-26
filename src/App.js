@@ -8,7 +8,7 @@ import Cart from "./components/Cart.js";
 import Footer from "./components/Footer.js";
 import ProductDetails from "./components/ProductDetails.js";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function App() {
   const [cart, setCart] = useState([]);
@@ -39,12 +39,6 @@ export default function App() {
       setCart([...cart, { ...newProduct, quantity: 1 }]);
     }
   }
-
-  useEffect(() => {
-    // to visualize the cart in the console every time in changes
-    // you can also use React dev tools
-    console.log(cart);
-  }, [cart]);
 
   return (
     <>

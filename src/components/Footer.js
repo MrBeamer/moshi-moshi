@@ -7,13 +7,13 @@ export default function Footer() {
     <footer className="footer">
       <ul>
         <li>
-          <i class="fab fa-facebook-square"></i>
+          <i className="fab fa-facebook-square"></i>
         </li>
         <li>
-          <i class="fab fa-instagram-square"></i>
+          <i className="fab fa-instagram-square"></i>
         </li>
         <li>
-          <i class="fab fa-twitter-square"></i>
+          <i className="fab fa-twitter-square"></i>
         </li>
       </ul>
       <p>© 2021 Michael Beamer. All rights reserved.</p>
