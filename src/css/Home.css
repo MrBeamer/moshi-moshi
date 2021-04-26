@@ -1,14 +1,14 @@
 .home-layout {
   display: grid;
-  grid-template-columns: 1fr auto;
-  /* padding-top: 45px; */
+  grid-template-columns: 1fr 1fr;
   padding: 45px 0;
   grid-gap: 34px;
 }
 
 .home-layout img {
-  height: 600px;
+  width: 100%;
   border-radius: 3px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
 }
 
 .home-layout p {

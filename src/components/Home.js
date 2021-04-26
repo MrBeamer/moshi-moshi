@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Home.css";
+import "../css/mediaQueries.css";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -15,11 +16,13 @@ export default function Home() {
         <p>
           Living well begins with eating well. That's why we ban hydrogenated
           fats, high-fructose corn syrup, artificial sweeteners and more than
-          100 flavours, colours and preservatives commonly found in food. If you
-          want to know what goes into the products you buy, our standards make
-          it easy, because if it doesn't meet the standards, we won't sell it.
+          100 flavours, colours and preservatives commonly found in food.
         </p>
-
+        <p>
+          If you want to know what goes into the products you buy, our standards
+          make it easy, because if it doesn't meet the standards, we won't sell
+          it.
+        </p>
         <Link to="/products" className="btn btn-default">
           Start shopping
         </Link>

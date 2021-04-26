@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../css/Products.css";
+import "../css/mediaQueries.css";
 import { seed } from "./seed.js";
 import Product from "../components/Product";
 

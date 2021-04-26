@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   padding: 45px 0;
-  grid-gap: 34px;
+  grid-gap: 20px;
   letter-spacing: 0.8px;
 }
 
@@ -40,4 +40,12 @@
 td:nth-child(3),
 td:nth-child(4) {
   text-align: center;
+}
+
+.cart-input {
+  margin-bottom: 20px;
+}
+
+.payForm p {
+  margin-bottom: 27px;
 }

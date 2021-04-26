@@ -85,7 +85,7 @@ export default function Cart(props) {
           <div className="cart-checkout"></div>
           <form className="payForm" onSubmit={handleFormSubmit}>
             <p>
-              Enter your email and then click on pay and your products will be
+              Enter your email & then click on pay and your products will be
               delivered to you in 2 days.
             </p>
             <Input
@@ -95,6 +95,7 @@ export default function Cart(props) {
               required
               value={email}
               onChange={(event) => setEmail(event.target.value)}
+              className="cart-input"
             ></Input>
             <Button type="submit">Pay</Button>
           </form>

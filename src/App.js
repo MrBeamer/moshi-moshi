@@ -5,6 +5,7 @@ import Products from "./components/Products.js";
 import Navbar from "./components/Navbar.js";
 import NotFound from "./components/NotFound.js";
 import Cart from "./components/Cart.js";
+import Footer from "./components/Footer.js";
 import ProductDetails from "./components/ProductDetails.js";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { useState, useEffect } from "react";
@@ -75,6 +76,7 @@ export default function App() {
             </Route>
           </Switch>
         </div>
+        <Footer />
       </BrowserRouter>
     </>
   );
