@@ -2,7 +2,7 @@ export const seed = [
   {
     id: 1,
     name: "Banana",
-    description: "1 fairtraded banana ",
+    description: "Origin India",
     image:
       "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1618&q=80",
     price: 0.45,
@@ -19,7 +19,7 @@ export const seed = [
   {
     id: 2,
     name: "Orange",
-    description: "1 fairtraded orange ",
+    description: "Origin Brazil",
     image:
       "https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=802&q=80",
     price: 0.75,
@@ -36,7 +36,7 @@ export const seed = [
   {
     id: 3,
     name: "Pineapple",
-    description: "1 Fresh pineapple",
+    description: "Origin Brazil",
     image:
       "https://images.unsplash.com/photo-1618871736709-0843f4cfc85b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1128&q=80",
     price: 1.99,
@@ -53,7 +53,7 @@ export const seed = [
   {
     id: 4,
     name: "Watermelon",
-    description: "1 Fresh watermelon",
+    description: "Origin China",
     image:
       "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
     price: 9.95,
@@ -70,7 +70,7 @@ export const seed = [
   {
     id: 5,
     name: "Avocado",
-    description: "1 fairtraded avocado ",
+    description: "Origin Mexico",
     image:
       "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80",
     price: 2.99,
@@ -88,7 +88,7 @@ export const seed = [
   {
     id: 6,
     name: "Cherries",
-    description: "100 Gramm  cherries",
+    description: "Origin Turkey",
     image:
       "https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     price: 0.49,

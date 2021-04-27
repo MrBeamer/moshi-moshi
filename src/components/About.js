@@ -21,20 +21,19 @@ export default function About() {
           to over 100 partner fruit suppliers nationwide.
         </p>
         <p>
-          We are a small team of problem solvers, designers, thinkers and
-          tinkers, working around the clock to make Fruit Panda the most
-          powerful online tool for fruit delivery. We believe that ordering
-          fruit should be easy, fast and definitely fun!
+          We are a small team of problem solvers and thinkers working around the
+          clock to make Fruit Panda the most powerful online tool for fairtrade
+          fruit delivery. We believe that ordering fruit should be fair, fast
+          and definitely fun!
         </p>
         <p>
-          Tired of the same fruits? Too lazy to go out and buy them in a store?
-          Simply download the Fruit Panda app or go to www.fruitpanda.de, and
-          enter your location to see which fruit suppliers deliver to you. Fruit
-          delivery has never been easier!
+          Tired of the same fruits? Simply download the Fruit Panda app or go to
+          www.fruitpanda.de, and enter your location to see which fruit
+          suppliers deliver to you. Fruit delivery has never been easier!
         </p>
       </div>
       <img
-        src="https://images.unsplash.com/photo-1582979512210-99b6a53386f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2734&q=80"
+        src="https://images.unsplash.com/photo-1552010099-5dc86fcfaa38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
         alt="woman with oranges"
       />
     </div>

@@ -15,3 +15,13 @@
   letter-spacing: 0.8px;
   line-height: 22px;
 }
+
+.home-layout .highlight {
+  /* background-color: #cb626e;
+
+  width: fit-content;
+  padding: 4px;
+  border-radius: 3px; */
+  color: #cb626e;
+  font-weight: bold;
+}

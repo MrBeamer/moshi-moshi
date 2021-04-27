@@ -86,7 +86,7 @@ export default function Cart(props) {
           <form className="payForm" onSubmit={handleFormSubmit}>
             <p>
               Enter your email & then click on pay and your products will be
-              delivered to you in 2 days.
+              delivered to you in 3 days.
             </p>
             <Input
               autoComplete="email"
