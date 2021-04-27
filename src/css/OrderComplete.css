@@ -1,0 +1,22 @@
+.order-complete-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  padding: 45px 0;
+  grid-gap: 34px;
+}
+.order-complete-layout img {
+  width: 60%;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  justify-self: center;
+}
+
+.order-complete-layout p {
+  letter-spacing: 0.8px;
+  line-height: 22px;
+}
+
+.order-complete-btn {
+  justify-self: center;
+}

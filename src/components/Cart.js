@@ -25,7 +25,7 @@ export default function Cart(props) {
       const result = await stripe.redirectToCheckout({
         lineItems: lineItems,
         mode: "payment",
-        successUrl: "https://fruitpanda.netlify.app",
+        successUrl: "https://fruitpanda.netlify.app/orderComplete",
         cancelUrl: "https://fruitpanda.netlify.app/products",
         customerEmail: email,
       });

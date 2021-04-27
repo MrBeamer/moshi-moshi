@@ -7,6 +7,7 @@ import NotFound from "./components/NotFound.js";
 import Cart from "./components/Cart.js";
 import Footer from "./components/Footer.js";
 import ProductDetails from "./components/ProductDetails.js";
+import OrderComplete from "./components/OrderComplete.js";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { useState } from "react";
 
@@ -43,7 +44,9 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar cart={cart} />
+        {window.location.pathname !== "/orderComplete" && (
+          <Navbar cart={cart} />
+        )}
         <div className="container">
           <Switch>
             <Route exact path="/">
@@ -65,12 +68,15 @@ export default function App() {
             <Route exact path="/cart">
               <Cart cart={cart} />
             </Route>
+            <Route exact path="/orderComplete">
+              <OrderComplete />
+            </Route>
             <Route>
               <NotFound />
             </Route>
           </Switch>
         </div>
-        <Footer />
+        {window.location.pathname !== "/orderComplete" && <Footer />}
       </BrowserRouter>
     </>
   );

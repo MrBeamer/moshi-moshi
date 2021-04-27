@@ -69,4 +69,10 @@
   .btn {
     padding: 8px 2px !important;
   }
+
+  .navbar ul {
+    padding: 0 !important;
+  }
+
+  /* justify-content: space-between; */
 }

@@ -53,7 +53,12 @@
   background-color: #cb626e;
 }
 
-.cta:hover {
+.cta-big {
+  background-color: #cb626e;
+}
+
+.cta:hover,
+.cta-big:hover {
   /* background-color: #f5ccaa; */
   background-color: #bc3e4d;
 }
