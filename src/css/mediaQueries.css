@@ -82,3 +82,47 @@
     padding: 0 !important;
   }
 }
+
+@media only screen and (width: 320px) {
+  a .nav-logo-mobile {
+    width: 40px;
+    margin-left: -5px;
+  }
+
+  .footer ul {
+    padding: 0;
+  }
+
+  .footer li i {
+    font-size: 18px;
+    color: var(--black);
+  }
+
+  .btn {
+    padding: 5px 6px !important;
+  }
+
+  .product-grid img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .product-grid {
+    grid-gap: 13px !important;
+  }
+
+  .cart-table thead th {
+    font-size: 13px;
+  }
+
+  .product-info p {
+    font-size: 13px;
+  }
+
+  .product-checkout .btn {
+    font-size: 13px;
+  }
+
+  .product-layout h1 {
+    font-size: 26px;
+  }
+}
