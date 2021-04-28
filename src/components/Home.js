@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="home-layout">
       <div>
-        <h1>Fresh and fair traded Fruits delivered in 3 days</h1>
+        <h1>Fair traded Fruits?</h1>
 
         <p className="highlight">Choosing fairtrade fruit makes a difference</p>
 

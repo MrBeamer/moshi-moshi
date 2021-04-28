@@ -99,7 +99,7 @@ export const seed = [
       protein: 1.4,
       sugar: 17.7,
     },
-    fact: "he average cherry tree has 7,000 cherries",
+    fact: "The average cherry tree has 7,000 cherries",
   },
 ];
 

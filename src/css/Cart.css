@@ -1,9 +1,11 @@
 .cart-layout {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
   padding: 45px 0;
   grid-gap: 20px;
   letter-spacing: 0.8px;
+  height: 100vh;
 }
 
 .cart-table {
@@ -48,4 +50,5 @@ td:nth-child(4) {
 
 .payForm p {
   margin-bottom: 27px;
+  width: 99%;
 }

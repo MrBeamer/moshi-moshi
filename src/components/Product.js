@@ -11,10 +11,12 @@ export default function Product(props) {
   return (
     <>
       <div className="product-grid">
-        <Link to={`/products/${details.id}`}>
-          <img src={details.image} alt="fruits"></img>
-        </Link>
-        {quantity !== 0 && <div className="product-quantity">{quantity}</div>}
+        <div className="product-parent">
+          <Link to={`/products/${details.id}`}>
+            <img src={details.image} alt="fruits"></img>
+          </Link>
+          {quantity !== 0 && <div className="product-quantity">{quantity}</div>}
+        </div>
         <div className="product-info">
           <p>{details.name}</p>
           <p>{details.description}</p>

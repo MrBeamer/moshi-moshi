@@ -12,11 +12,13 @@ export default function Navbar(props) {
 
   return (
     <nav className="navbar">
-      <img
-        className="nav-logo-mobile"
-        src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1619453939/fruit%20panda/jyyblsei3mrfnf39i5ms.png"
-        alt="logo"
-      ></img>
+      <NavLink className="nav-logo-mobile" to="/">
+        <img
+          className="nav-logo-mobile"
+          src="https://res.cloudinary.com/dxdboxbyb/image/upload/v1619609844/fruit%20panda/qpgdsfmv1odkg4odcyqh.jpg"
+          alt="logo"
+        ></img>
+      </NavLink>
       <NavLink to="/">
         <img
           className="nav-logo"

@@ -32,8 +32,8 @@
 .product-quantity {
   position: absolute;
   background-color: var(--primary-1);
-  bottom: 7%;
-  left: 20%;
+  bottom: -3%;
+  left: 86%;
   padding: 2px;
   font-size: 14px;
   width: 18px;
@@ -41,4 +41,8 @@
   text-align: center;
   border-radius: 3px;
   color: var(--white);
+}
+
+.product-parent {
+  position: relative;
 }
