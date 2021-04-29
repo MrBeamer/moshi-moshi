@@ -1,6 +1,6 @@
 footer {
   display: flex;
-  height: 10vh;
+  height: 20%;
   text-align: center;
   padding: 10px;
   background-color: var(--neutral-6);

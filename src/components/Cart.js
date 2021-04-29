@@ -82,7 +82,7 @@ export default function Cart(props) {
               </tr>
             </tfoot>
           </table>
-          <div className="cart-checkout"></div>
+          {/* <div className="cart-checkout"></div> */}
           <form className="payForm" onSubmit={handleFormSubmit}>
             <p>
               Enter your email & then click on pay and your products will be

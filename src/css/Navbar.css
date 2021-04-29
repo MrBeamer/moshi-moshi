@@ -1,5 +1,5 @@
 .navbar {
-  height: 11vh;
+  height: 20%;
   background-color: var(--neutral-6);
   box-shadow: 0 3px 7px 1px rgb(0 0 0 / 6%), 0 -3px 7px 1px rgb(0 0 0 / 7%);
   display: flex;

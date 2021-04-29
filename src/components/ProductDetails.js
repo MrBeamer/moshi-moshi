@@ -52,6 +52,7 @@ export default function ProductDetails(props) {
                 <NavLink
                   exact
                   activeClassName="active-tab"
+                  id="last"
                   to={`${match.url}/fact`}
                 >
                   Fun Fact
