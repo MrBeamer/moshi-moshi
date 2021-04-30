@@ -5,14 +5,6 @@
 
 /* Small tablet,to big tablet from 768 - 1023 px */
 @media only screen and (max-width: 1023px) {
-  .footer {
-    height: 8vh;
-  }
-
-  .navbar {
-    height: 8vh;
-  }
-
   nav-logo {
     width: 63%;
   }
@@ -24,9 +16,6 @@
 
 /* Small phones, to small tablets from 481 - 767 px */
 @media only screen and (max-width: 767px) {
-  .navbar {
-    height: 11vh;
-  }
   .navbar ul .nav-item:first-child {
     display: none;
   }
@@ -75,7 +64,8 @@
 }
 
 /* Small phones from 0 - 480 px */
-@media only screen and (max-width: 480px) {
+/* Testing 503 px individual */
+@media only screen and (max-width: 503px) {
   .products-layout .products-grid {
     grid-template-columns: 1fr;
   }
