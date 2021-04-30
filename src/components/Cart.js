@@ -8,7 +8,6 @@ const stripeLoadedPromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
 
 export default function Cart(props) {
   const [email, setEmail] = useState("");
-  console.log(email);
 
   const totalPrice = props.cart
     .reduce((total, product) => total + product.quantity * product.price, 0)

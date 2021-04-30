@@ -12,10 +12,6 @@
   border-radius: 3px;
 }
 
-.tabs {
-  /* border-bottom: 1px solid var(--neutral-4); */
-}
-
 .tabs ul {
   list-style: none;
   padding: 0;

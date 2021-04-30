@@ -4,9 +4,8 @@ import "../css/Input.css";
 
 export default function Input(props) {
   const { placeholder, type = "text", required, className, ...rest } = props;
-
   const classNames = clsx({ input: true }, className);
-  console.log(props);
+
   return (
     <label className="label">
       {placeholder}
